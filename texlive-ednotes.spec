@@ -1,3 +1,9 @@
+# revision 19440
+# category Package
+# catalog-ctan /macros/latex/contrib/ednotes
+# catalog-date 2008-01-07 00:37:03 +0100
+# catalog-license lppl
+# catalog-version 1.3a
 Name:		texlive-ednotes
 Version:	1.3a
 Release:	1
@@ -53,6 +59,7 @@ including support for line numbers and layers of footnotes.
 %doc %{_texmfdistdir}/doc/latex/ednotes/emathtst.tex
 %doc %{_texmfdistdir}/doc/latex/ednotes/varnrule.tex
 %doc %{_texmfdistdir}/doc/latex/ednotes/visible.txt
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +70,5 @@ including support for line numbers and layers of footnotes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
