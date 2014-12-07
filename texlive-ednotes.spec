@@ -6,7 +6,7 @@
 # catalog-version 1.3a
 Name:		texlive-ednotes
 Version:	1.3a
-Release:	8
+Release:	9
 Summary:	Typeset scholarly editions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ednotes
