@@ -3,7 +3,7 @@ Version:	35829
 Release:	2
 Summary:	Typeset scholarly editions
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ednotes
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ednotes
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ednotes.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ednotes.doc.r%{version}.tar.xz
